@@ -15,7 +15,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(5555, () => {
-    console.log(`Server is listening on http://localhost:${PORT}`);
+    console.log(`Server is listening on http://localhost:${5555}`);
 });
 
 class HttpServer {
