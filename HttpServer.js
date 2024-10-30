@@ -14,13 +14,13 @@ const server = http.createServer((req, res) => {
     }
 });
 
-server.listen(PORT, () => {
+server.listen(5555, () => {
     console.log(`Server is listening on http://localhost:${PORT}`);
 });
 
 class HttpServer {
     constructor(PORT) {
-        
+
     }
 }
 
