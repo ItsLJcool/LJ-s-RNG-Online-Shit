@@ -14,3 +14,5 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
   res.send('Hello, world!');
 });
+
+console.log("END PROGRAM");
